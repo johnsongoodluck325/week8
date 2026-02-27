@@ -12,9 +12,10 @@ hoverBtn.addEventListener("mouseleave", () => {
 const keyInput = document.getElementById("keyInput");
 const keyMsg = document.getElementById("keyMsg");
 
-keyInput.addEventListener("keydown", (event) => {
-  keyMsg.textContent = "Last key pressed: " + event.key;
+keyInput.addEventListener("keydown", (e) => {
+  keyMsg.textContent = "Last key pressed: " + e.key;
 });
+
 
 const demoForm = document.getElementById("demoForm");
 const formMsg = document.getElementById("formMsg");
@@ -44,3 +45,4 @@ container.addEventListener("click", (event) => {
       "You clicked: " + event.target.textContent;
   }
 });
+
