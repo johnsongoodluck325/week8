@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Event Lab</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <h1>JavaScript Event Handling Lab</h1>
+
+  <section>
+    <h2>Mouse Events</h2>
+    <button id="hoverBtn">Hover over me</button>
+    <p id="mouseMsg">Waiting for hover...</p>
+  </section>
+
+  <section>
+    <h2>Keyboard Events</h2>
+    <input type="text" id="keyInput" placeholder="Type something">
+    <p id="keyMsg">Last key pressed: None</p>
+  </section>
+
+  <section>
+    <h2>Form Events</h2>
+    <form id="demoForm">
+      <input type="text" required placeholder="Enter your name">
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMsg"></p>
+  </section>
+
+  <section>
+    <h2>Focus & Blur Events</h2>
+    <input type="text" id="focusInput" placeholder="Click into this field">
+    <p id="focusMsg">Input is not focused</p>
+  </section>
+
+  <section>
+    <h2>Event Delegation</h2>
+    <div id="buttonContainer">
+      <button>Option A</button>
+      <button>Option B</button>
+      <button>Option C</button>
+    </div>
+    <p id="delegateMsg">Click a button above</p>
+  </section>
+
+</body>
+</html>
